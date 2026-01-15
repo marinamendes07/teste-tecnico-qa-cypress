@@ -8,7 +8,7 @@ Given('que o usuário está na página de cadastro', () => {
 })
 
 When('ele preenche nome, email e senha válidos', () => {
-  cadastroUsuarioPage.preencherNome('Marina Silva')
+  cadastroUsuarioPage.preencherNome('Marina Magalhães')
   cadastroUsuarioPage.preencherEmail(`marina_${Date.now()}@email.com`)
   cadastroUsuarioPage.preencherSenha('123456')
 })
